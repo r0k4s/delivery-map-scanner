@@ -1,5 +1,7 @@
 # Delivery Map Scanner
 
+**Live app:** https://r0k4s.github.io/delivery-map-scanner/ (deployed automatically by GitHub Actions on every push to `main`).
+
 A phone app (PWA) for scanning UPS shipping labels and seeing every delivery as a coloured pin on Google Maps. Built for ~80 scans a day: point the camera at the label, it reads the **SHIP TO** address, puts it on the map, and is ready for the next package.
 
 Everything is stored on the phone (IndexedDB). There is no server and no account.
